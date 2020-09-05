@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Post from '../Post/Post';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NotFound from '../NotFound/NotFound';
 import Header from '../Header/Header';
 import Portal from '../Portal/Portal';
 import PostDetail from '../PostDetail/PostDetail';
-const Main = () => {
 
+
+const Main = () => {
     return (
         <div>
             <Header />
